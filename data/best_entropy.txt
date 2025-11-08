@@ -1,0 +1,15 @@
+count11.txt	ancestorial	11.095845	3501
+count12.txt	anticipators	10.797565	2269
+count13.txt	antiparticles	10.202091	1353
+count14.txt	anticentralism	9.630369	849
+count15.txt	antirationalist	8.748204	450
+count16.txt	actinodermatitis	7.975088	253
+count17.txt	environmentalists	7.125367	141
+count18.txt	actinotherapeutics	6.392317	84
+count19.txt	abdominohysterotomy	5.392317	42
+count20.txt	anarchoindividualist	5.209453	37
+count21.txt	aminoacetophenetidine	4.000000	16
+count22.txt	alkylbenzenesulfonates	1.000000	2
+count23.txt	anthropomorphologically	0.000000	1
+count25.txt	antidisestablishmentarian	0.000000	1
+
