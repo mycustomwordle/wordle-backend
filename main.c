@@ -590,7 +590,7 @@ static bool parse_game_code(const char* body, char* out, size_t out_size) {
             // Validate game code format: 8 uppercase alphanumeric characters
             if (strlen(out) != 8) return false;
             for (int i = 0; i < 8; i++) {
-                if (!isalnum((unsigned char)out[i]) || !isupper((unsigned char)out[i])) {
+                if (!isalnum((unsigned char)out[i]) || (isalpha((unsigned char)out[i]) && !isupper((unsigned char)out[i]))) {
                     return false;
                 }
             }
@@ -612,7 +612,7 @@ static bool parse_game_code(const char* body, char* out, size_t out_size) {
         return false;
     }
     for (int i = 0; i < 8; i++) {
-        if (!isalnum((unsigned char)value[i]) || !isupper((unsigned char)value[i])) {
+        if (!isalnum((unsigned char)value[i]) || (isalpha((unsigned char)value[i]) && !isupper((unsigned char)value[i]))) {
             free(value);
             return false;
         }
